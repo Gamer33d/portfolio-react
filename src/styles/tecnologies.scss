@@ -1,3 +1,142 @@
 #page-tecnologies{
     height: 100vh;
+
+    .content{
+        z-index: 2;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+
+        padding: 35px;
+
+        .page-title{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+
+            >h1 {
+                font-size: 1.9rem;
+            }
+    
+            .line {
+                margin-top: 15px;
+                width: 30%;
+                height: 2px;
+                border-radius: 999px;
+                background-color: #648A64;
+            }
+        }
+
+        .tecnology-card {
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+            width: 100%;
+            height: 100%;
+            max-width: 1000px;
+            max-height: 540px;
+            
+            border-radius: 20px;
+            margin: 4%;
+            padding: 35px 3%;
+            background-color: rgba(70, 104, 91, 0.8);
+            
+
+            > img{
+                width: 25%;
+                border-radius: 50%;
+                animation: upAppear 1s ease-in-out;
+                animation-timeline: view();
+                animation-range: cover 0% cover 40%;
+
+            }
+
+            .information{
+                opacity: 1;
+                padding: 5px;
+
+
+                h1{
+                    margin-bottom: 9px;
+                    animation: upAppear 1s ease-in-out;
+                    animation-timeline: view();
+                    animation-range: cover 0% cover 40%;
+                }
+
+                p{
+                    animation: upAppear 1s ease-in-out;
+                    animation-timeline: view();
+                    animation-range: cover 0% cover 40%;
+                }
+
+                img{
+                    position: absolute;
+                    bottom: 5%;
+                    left: 0;
+                    right: 0;
+                    margin: auto;
+                    cursor: pointer;
+
+                    transition: 0.2s;
+                    
+                    &:hover{
+                        filter: brightness(0.6);
+                    }
+                }
+               
+
+            }
+        }
+    }
+
+    aside{
+        z-index: 1;
+        width: 50%;
+        height: 100%;
+        animation: appear 2s linear;
+        animation-timeline: view();
+        animation-range: cover 0% contain 70%;
+
+        > img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: center;
+        }
+
+        
+    }
+
+}
+
+
+@keyframes appear {
+    from {
+        opacity: 0;
+        translate: -100vw 0;
+    }
+
+    to {
+        opacity: 1;
+        translate: 0 0;
+    }
+}
+
+
+@keyframes upAppear {
+    from {
+        opacity: 0;
+        translate: 0 50vh;
+    }
+
+    to {
+        opacity: 1;
+        translate: 0 0;
+    }
 }

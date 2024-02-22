@@ -1,7 +1,6 @@
 import { useState } from 'react'
 import { tecnologies } from '../db/tecnologies'
 
-import reactLogo from '../assets/images/react_logo.svg'
 import tecnologyBack from '../assets/images/tecnologias_back.svg'
 import arrowImage from '../assets/images/arrow.svg'
 import askSymbol from '../assets/images/askSymbol.svg'
@@ -29,7 +28,7 @@ export function Tecnologies(){
             <div className="content">
                 <div className="page-title">
                     <h1>Tecnologias</h1>
-                    <div className="line"></div>
+                    <div className="line" style={{width: '30%'}}></div>
 
                 </div>
                 <section className='tecnology-card'>

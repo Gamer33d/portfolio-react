@@ -22,13 +22,7 @@
                 font-size: 1.9rem;
             }
     
-            .line {
-                margin-top: 15px;
-                width: 30%;
-                height: 2px;
-                border-radius: 999px;
-                background-color: #648A64;
-            }
+            
         }
 
         .tecnology-card {
@@ -129,14 +123,3 @@
 }
 
 
-@keyframes upAppear {
-    from {
-        opacity: 0;
-        translate: 0 50vh;
-    }
-
-    to {
-        opacity: 1;
-        translate: 0 0;
-    }
-}

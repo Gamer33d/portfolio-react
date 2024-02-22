@@ -1,28 +1,17 @@
-import { useEffect } from "react";
+import { AcademicBackground } from "./pages/AcademicBackground";
 import { Home } from "./pages/Home";
+import MyProjects from "./pages/MyProjects";
 import { Tecnologies } from "./pages/Tecnologies";
 import './styles/global.scss'
 
 function App() {
-  useEffect(() => {
-    const script = document.createElement('script');
-
-    script.src = '';
-    script.async = true;
-
-    document.body.appendChild(script);
-
-    return () => {
-      document.body.removeChild(script);
-    }
-  }, []);
-
   return (
-    <>
+    <div className="app">
       <Home />
-      <div className="page-separator"></div>
       <Tecnologies /> 
-    </>
+      <AcademicBackground />
+      <MyProjects />
+    </div>
   );
 }
 

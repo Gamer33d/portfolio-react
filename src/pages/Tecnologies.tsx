@@ -28,7 +28,7 @@ export function Tecnologies(){
             <div className="content">
                 <div className="page-title">
                     <h1>Tecnologias</h1>
-                    <div className="line" style={{width: '30%'}}></div>
+                    <div className="line" style={{width: '30vw'}}></div>
 
                 </div>
                 <section className='tecnology-card'>

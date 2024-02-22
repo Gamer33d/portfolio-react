@@ -39,7 +39,7 @@ export function Home(){
                 <section className='about-me-card'>
                     <div className="about-content">
                         <h1>Sobre Mim</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ac venenatis dolor. Nunc at egestas orci. Sed tristique gravida leo, nec pellentesque mi porta sit amet. Sed tincidunt velit non ornare imperdiet. Cras vel nulla sodales, porttitor magna sit amet, placerat ligula. Integer eleifend maximus vulputate. Curabitur consectetur justo diam, in efficitur risus dapibus id. Praesent malesuada tristique odio eu tincidunt. Curabitur ac risus ut dui vestibulum consectetur. Curabitur risus massa, suscipit a dui quis, bibendum elementum purus. Pellentesque ac augue risus.</p>
+                        <p>Me chamo Guilherme Dalbeni, sou da zona oeste de São Paulo e sempre fui apaixonado por programação, me aprofundei nela em 2020 com a pandemia. Sou uma pessoa bem persistente e resiliente, tento sempre manter a calma e entender os outros e as possíveis dificuldades que tenham. No entanto, às vezes comparo bastante minhas habilidades com as dos outros quando o assunto é programação. Gosto de testar e aprender coisas novas, sempre me mantendo atualizado no mundo da tecnologia. Mas também gosto de tirar aquele tempo de lazer em games. Resumindo, meus hobbies são me atualizar e jogar.</p>
                     </div>
                 </section>
             </div>

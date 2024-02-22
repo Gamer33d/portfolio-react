@@ -6,6 +6,7 @@
         position: absolute;
         display: flex;
         flex-direction: column;
+        justify-content: center;
         align-items: center;
         width: 100%;
         height: 100%;
@@ -19,7 +20,7 @@
             width: 100%;
 
             >h1 {
-                font-size: 1.9rem;
+                font-size: 2.5vmax;
             }
     
             
@@ -32,7 +33,7 @@
             justify-content: center;
             gap: 20px;
             width: 100%;
-            height: 100%;
+            height: 40vmax;
             max-width: 1000px;
             max-height: 540px;
             
@@ -52,11 +53,11 @@
             }
 
             .information{
-                opacity: 1;
                 padding: 5px;
 
 
                 h1{
+                    font-size: 2.4vmax;
                     margin-bottom: 9px;
                     animation: upAppear 1s ease-in-out;
                     animation-timeline: view();
@@ -64,12 +65,14 @@
                 }
 
                 p{
+                    font-size: 2.6vmin;
                     animation: upAppear 1s ease-in-out;
                     animation-timeline: view();
                     animation-range: cover 0% cover 40%;
                 }
 
                 img{
+                    width: 7vmax;
                     position: absolute;
                     bottom: 5%;
                     left: 0;
@@ -96,6 +99,10 @@
         animation: appear 2s linear;
         animation-timeline: view();
         animation-range: cover 0% contain 70%;
+
+        @media screen and (max-width: 700px){
+            width: 100%;
+        }
 
         > img{
             width: 100%;

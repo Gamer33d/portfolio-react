@@ -5,7 +5,7 @@ export default function MyProjects(){
         <div id="my-projects">
             <header>
                 <h1>Certificados e Projetos</h1>
-                <div className="line" style={{width: '70%'}}></div>
+                <div className="line" style={{width: '30vw'}}></div>
             </header>
             <main>
                 <div className="certificados">
